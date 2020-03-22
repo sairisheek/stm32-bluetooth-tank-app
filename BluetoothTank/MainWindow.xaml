@@ -1,0 +1,15 @@
+﻿<Window Name="mainWindow" x:Class="BluetoothTank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BluetoothTank"
+        mc:Ignorable="d"
+        Title="Bluetooth Tank Controller" Height="450" Width="800">
+    <Grid Name="Container" Background="Transparent">
+        <Button Name="buttonUp" Margin="371,195,371,174" Width="50" Height="50"/>
+        <Button Name="buttonDown" Margin="371,135,371,234" Width="50" Height="50"/>
+        <Button Name="buttonLeft" Margin="311,195,431,174" Width="50" Height="50"/>
+        <Button Name="buttonRight" Margin="431,195,311,174" Width="50" Height="50"/>
+    </Grid>
+</Window>
